@@ -1,0 +1,264 @@
+/* Caracteristicas generales */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: #111111;
+}
+
+footer {
+    background: transparent;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    font-family: 'Lalezar', cursive;
+    font-size: 25px;
+}
+
+/* Apartado de la página principal */
+#encabezado {
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 100px;
+}
+
+#titulo p {
+    font-family: 'Lalezar', cursive;
+    font-size: 25px;
+    margin-top: -1%;
+}
+
+#titulo h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70px;
+    margin-top: -5px;
+}
+
+#navegacion {
+    margin: 5px;
+}
+
+#navegacion ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#navegacion ul li {
+    float: left;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Lalezar', cursive;
+    font-size: 25px;
+}
+
+#navegacion a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#dibujo {
+    width: 50%;
+    transform: scaleX(-1);
+    margin-left: 60%;
+}
+
+#informacion {
+    margin-top: -65%;
+    margin-left: 5%;
+    margin-bottom: -5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+}
+
+#apartado {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#apartado img {
+    width: 5%;
+    height: 5%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#hobbies #apartado {
+    justify-content: flex-end;
+}
+
+#proyecto h2,
+#presentacion h2,
+#hobbies h2,
+#formacion h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#presentacion p {
+    font-family: 'Lalezar', cursive;
+}
+
+#proyecto p,
+#hobbies p,
+#formacion p {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Fin del apartado página principal*/
+/*----------------------------------*/
+/* Inicio del apartado 'Proyectos HTML / CSS'*/
+#proyecto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: -10%;
+    margin: 5%;
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+    width: 90%;
+}
+
+#contenido {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#contenido img {
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 20%;
+    border: 1px solid #111111;
+}
+
+#contenido p {
+    width: 50%;
+    margin-top: 0%;
+}
+
+#proyecto1 p {
+    margin-left: -5%;
+}
+
+#enlace p {
+    margin-left: 0%;
+}
+
+#proyecto3 h2 {
+    margin-top: 5%;
+    margin-bottom: -10%;
+}
+
+#proyecto3 #contenido p {
+    margin-top: 10%;
+}
+
+#contenido #fotos {
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido #fotos img {
+    margin: 5%;
+    border: 1px solid #111111;
+}
+
+#contenido #fotos #imagen1 {
+    margin-left: 5%;
+    width: 80%;
+}
+
+#contenido #fotos #imagen2 {
+    margin-left: 15%;
+    margin-top: 80%;
+    width: 80%;
+}
+
+#contenido #fotos #imagen3 {
+    margin-left: 5%;
+    width: 50%;
+}
+
+#contenido #fotos #imagen4 {
+    margin-left: 50%;
+    width: 50%;
+}
+/* Fin del apartado 'Proyectos de HTML / CSS' */
+/*--------------------------------------------*/
+/* Apartado contacto */
+#dibujo2 {
+    width: 40%;
+}
+
+#formulario {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario form {
+    width: 50%;
+    margin-top: -75%;
+    margin-left: 35%;
+}
+
+#formulario fieldset{
+    height: 80vh;
+    border-radius: 10px;
+}
+
+#formulario input,
+#formulario label,
+#formulario textarea {
+    width: 90%;
+    padding: 10px;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#formulario textarea {
+    height: 20vh;
+}
+
+#formulario button {
+    margin-top: 5%;
+    margin-left: 50%;
+    padding: 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#redesSociales {
+    width: 40%;
+    margin-top: -25%;
+    margin-left: 45%;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+}
+
+#redesSociales h5 {
+    font-family: 'Lalezar', cursive;
+    font-size: 25px;
+    margin-bottom: -1%;  
+}
